@@ -60,7 +60,7 @@ class API{
 
     // main function
     public function login($cell,$pwd){
-        $url="https://music.163.com/weapi/login/cellphone";
+        $url="https://https://music.163.com/m/oauth2/authorize/callback?redirect_from_h5=true#/m/phone";
         $data=array(
         "phone"=>$cell,
         "countrycode"=>"86",
